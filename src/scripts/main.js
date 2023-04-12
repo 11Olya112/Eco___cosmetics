@@ -135,7 +135,8 @@ shop__image.forEach((element) => {
         application.textContent
           // eslint-disable-next-line max-len
           = 'Application: foam the shampoo in your hands and apply foam on the hair or draw a block over wet hair, foam, massage, rinse, apply balm or conditioner.';
-        card__image.src = 'http://localhost:49469/shop-01.75cf3f8e.png';
+        // eslint-disable-next-line max-len
+        card__image.src = 'https://lh3.googleusercontent.com/dTbZzq8VOKZWQGvw2foVoOJzMjDFgtBPYuQ1qUh099aZQpWFaxdKGJVPaYL7fdBivRWqILp9KNQ7SglsUxuO5qPUUcFUgQNVaF0fGI9u';
         break;
 
       case '2':
