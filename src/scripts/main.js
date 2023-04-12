@@ -135,7 +135,7 @@ shop__image.forEach((element) => {
         application.textContent
           // eslint-disable-next-line max-len
           = 'Application: foam the shampoo in your hands and apply foam on the hair or draw a block over wet hair, foam, massage, rinse, apply balm or conditioner.';
-        card__image.src = 'http://localhost:8080/shop-01.75cf3f8e.png';
+        card__image.src = '/shop-01.75cf3f8e.png';
         break;
 
       case '2':
@@ -149,7 +149,7 @@ shop__image.forEach((element) => {
         application.textContent
           // eslint-disable-next-line max-len
           = 'Application: Apply to face and neck skin. Use in the morning and evening.';
-        card__image.src = 'http://localhost:8080/shop-02.1a30c3c5.png';
+        card__image.src = '/shop-02.1a30c3c5.png';
 
         break;
       case '3':
@@ -163,7 +163,7 @@ shop__image.forEach((element) => {
         application.textContent
           // eslint-disable-next-line max-len
           = 'Application: Apply the paste all over your body, gently massage with your fingertips in circular motion.Rinse well with plain water and pat dry. Use it 2-3 times a week for a brighter and even skin tone.  ';
-        card__image.src = 'http://localhost:8080/shop-03.91f355c0.png';
+        card__image.src = '/shop-03.91f355c0.png';
 
         break;
       case '4':
@@ -177,7 +177,7 @@ shop__image.forEach((element) => {
         application.textContent
           // eslint-disable-next-line max-len
           = 'Application: Apply the scrub to clean, damp skin and rub in circular, massaging movements. Rinse off the remaining scrub with water and dry the skin with a towel.';
-        card__image.src = 'http://localhost:8080/shop-08.8a454f32.png';
+        card__image.src = '/shop-08.8a454f32.png';
         break;
       case '5':
         cardName.textContent = 'Almond Shampoo with Lavender Oil';
@@ -190,7 +190,7 @@ shop__image.forEach((element) => {
         application.textContent
           // eslint-disable-next-line max-len
           = 'Application:  foam the shampoo in your hands and apply foam on the hair or draw a block over wet hair, foam, massage,rinse, apply balm or conditioner.';
-        card__image.src = 'http://localhost:8080/shop-04.78ebd337.png';
+        card__image.src = '/shop-04.78ebd337.png';
         break;
       case '6':
         cardName.textContent = 'shampoo-conditioner HERBS';
@@ -203,7 +203,7 @@ shop__image.forEach((element) => {
         application.textContent
           // eslint-disable-next-line max-len
           = 'Application: Apply conditioner generously to wet hair from root to tip and rinse.';
-        card__image.src = 'http://localhost:8080/shop-07.fb9bf0c9.png';
+        card__image.src = '/shop-07.fb9bf0c9.png';
         break;
       case '7':
         cardName.textContent = 'whiskey room candle';
@@ -216,7 +216,7 @@ shop__image.forEach((element) => {
         application.textContent
           // eslint-disable-next-line max-len
           = 'Application: First time lighting, please ensure you burn for at least 4 hours, keep sheltered from drafts.';
-        card__image.src = 'http://localhost:8080/shop-05.d1640c42.png';
+        card__image.src = '/shop-05.d1640c42.png';
         break;
       case '8':
         cardName.textContent = 'hand poured scented soy candle';
@@ -229,7 +229,7 @@ shop__image.forEach((element) => {
         application.textContent
           // eslint-disable-next-line max-len
           = 'Application: Always burn within sight. Keep away from drafts and vibrations. Keep out of reach of children and pets.';
-        card__image.src = 'http://localhost:64136/shop-06.0a40c857.png';
+        card__image.src = '/shop-06.0a40c857.png';
         break;
       default:
         break;
