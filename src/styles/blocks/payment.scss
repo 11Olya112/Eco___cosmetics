@@ -1,0 +1,44 @@
+.payment {
+  background-color: $c-lightGray;
+  height: 100vh;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 150%;
+  color: $c-black;
+
+  &__choose {
+    margin-bottom: 50px;
+    text-align: center;
+  }
+
+  &__delivery {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    text-align: center;
+    margin: 40px 490px;
+    border: none;
+    @include hover(transform scale(1.1));
+
+    &:hover {
+      cursor: pointer;
+      border: 2px solid black;
+    }
+
+    &-img {
+      width: 55px;
+      height: 31px;
+      margin: 5px auto 0;
+    }
+  }
+
+  &__button {
+    margin-top: 73px;
+    width: 100%;
+
+    @include onTablet {
+      width: 280px;
+      margin: 73px auto;
+    }
+  }
+}
