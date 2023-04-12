@@ -229,7 +229,7 @@ shop__image.forEach((element) => {
         application.textContent
           // eslint-disable-next-line max-len
           = 'Application: Always burn within sight. Keep away from drafts and vibrations. Keep out of reach of children and pets.';
-        card__image.src = 'http://localhost:8080/shop-05.d1640c42.png';
+        card__image.src = 'http://localhost:64136/shop-06.0a40c857.png';
         break;
       default:
         break;
