@@ -150,7 +150,8 @@ shop__image.forEach((element) => {
         application.textContent
           // eslint-disable-next-line max-len
           = 'Application: Apply to face and neck skin. Use in the morning and evening.';
-        card__image.src = 'http://localhost:49469/shop-02.1a30c3c5.png';
+        // eslint-disable-next-line max-len
+        card__image.src = 'https://lh3.googleusercontent.com/46sUJ-zZ3nuPnNdF-u6BFJnpGkLjxlEdIUqB5A502pA4C9S74YFZzbRPBlzZDZmaAiea1pily6r44PLF7LmkPF4msNqBge8XiN-v_lTA';
 
         break;
       case '3':
@@ -164,7 +165,8 @@ shop__image.forEach((element) => {
         application.textContent
           // eslint-disable-next-line max-len
           = 'Application: Apply the paste all over your body, gently massage with your fingertips in circular motion.Rinse well with plain water and pat dry. Use it 2-3 times a week for a brighter and even skin tone.  ';
-        card__image.src = 'http://localhost:49469/shop-03.91f355c0.png';
+        // eslint-disable-next-line max-len
+        card__image.src = 'https://lh3.googleusercontent.com/CCux00QqRizFWnHN8hZaMrXmQA3K-P92EhThy3P8c3n1F0CmHbWi5504J1_PkYx-2q71tQ-CUePcTZarwbUy5MXfKlTmiB4BbY6-DlIM';
 
         break;
       case '4':
@@ -178,7 +180,8 @@ shop__image.forEach((element) => {
         application.textContent
           // eslint-disable-next-line max-len
           = 'Application: Apply the scrub to clean, damp skin and rub in circular, massaging movements. Rinse off the remaining scrub with water and dry the skin with a towel.';
-        card__image.src = 'http://localhost:49469/shop-08.8a454f32.png';
+        // eslint-disable-next-line max-len
+        card__image.src = 'https://lh3.googleusercontent.com/dP073CJ6Pe7qDG6viNgDbDRidDr13suzqSnVLHZwQpVD3uWe9MZ-JEDva0I1PCba-BnMhiO-mF3qXIRF4LIEboBjC-GFu4POWKjBT7M';
         break;
       case '5':
         cardName.textContent = 'Almond Shampoo with Lavender Oil';
@@ -191,7 +194,8 @@ shop__image.forEach((element) => {
         application.textContent
           // eslint-disable-next-line max-len
           = 'Application:  foam the shampoo in your hands and apply foam on the hair or draw a block over wet hair, foam, massage,rinse, apply balm or conditioner.';
-        card__image.src = 'http://localhost:49469/shop-04.78ebd337.png';
+        // eslint-disable-next-line max-len
+        card__image.src = 'https://lh3.googleusercontent.com/Hv0o7ZfTrvLQLB8M6Q91o0eMWFG0XX08Xh7UHUUmxmI3onogULXiZS7Gx6tluqY3vP61Ob9GMCPj3Jc-oqIa-Z8K8IXyc4T-3exlix2G';
         break;
       case '6':
         cardName.textContent = 'shampoo-conditioner HERBS';
@@ -204,7 +208,8 @@ shop__image.forEach((element) => {
         application.textContent
           // eslint-disable-next-line max-len
           = 'Application: Apply conditioner generously to wet hair from root to tip and rinse.';
-        card__image.src = 'http://localhost:49469/shop-07.fb9bf0c9.png';
+        // eslint-disable-next-line max-len
+        card__image.src = 'https://lh3.googleusercontent.com/gtILyBrmBBxvpn9yZHUD4EVEY8BeDB_JlDTpUrUDmaoqFtlyXAGuOSJUspCzUH9q81d0FpDsvnRpl2LfBR8ZP7NJ0QYXkAWLnwnw0xaeiQ';
         break;
       case '7':
         cardName.textContent = 'whiskey room candle';
@@ -217,7 +222,8 @@ shop__image.forEach((element) => {
         application.textContent
           // eslint-disable-next-line max-len
           = 'Application: First time lighting, please ensure you burn for at least 4 hours, keep sheltered from drafts.';
-        card__image.src = 'http://localhost:49469/shop-05.d1640c42.png';
+        // eslint-disable-next-line max-len
+        card__image.src = 'https://lh3.googleusercontent.com/CvyCS0osEM-zTdqZC-xOK91Kk_sd_Bu-uO4wVCaBgFebsxZX5z1kx6pWXdTu23pZ56mEd0zHunMyF1gPG0BqmUiJGdUinSXMCMQyhVIrog';
         break;
       case '8':
         cardName.textContent = 'hand poured scented soy candle';
@@ -230,7 +236,8 @@ shop__image.forEach((element) => {
         application.textContent
           // eslint-disable-next-line max-len
           = 'Application: Always burn within sight. Keep away from drafts and vibrations. Keep out of reach of children and pets.';
-        card__image.src = 'http://localhost:49469/shop-06.0a40c857.png';
+        // eslint-disable-next-line max-len
+        card__image.src = 'https://lh3.googleusercontent.com/8uFLAmlpjZOUd9mZJ3KzOW3L0D0CIMvx9ctplTGifPsMNH0jjK4U2vjpK1dPszmr1okwNTElLW0mX9m_r0MyhatNmJA8yp4AEFcMEQZ1';
         break;
       default:
         break;
