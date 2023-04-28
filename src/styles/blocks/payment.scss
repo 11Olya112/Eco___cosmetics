@@ -16,13 +16,22 @@
     flex-direction: column;
     gap: 15px;
     text-align: center;
-    margin: 40px 490px;
+    margin: 40px 90px;
     border: none;
     @include hover(transform scale(1.1));
+
+    @include onTablet {
+      margin: 40px 270px;
+    }
+
+    @include onDesktop {
+      margin: 40px 490px;
+    }
 
     &:hover {
       cursor: pointer;
       border: 2px solid black;
+      border-width: 3px;
     }
 
     &-img {

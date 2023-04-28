@@ -122,6 +122,7 @@ const shop__image = document.querySelectorAll('.shop__image');
 const card__image = document.querySelector('.card__image');
 
 shop__image.forEach((element) => {
+  // eslint-disable-next-line no-undef
   element.addEventListener('click', (event) => {
     switch (event.target.id) {
       case '1':
@@ -136,7 +137,7 @@ shop__image.forEach((element) => {
           // eslint-disable-next-line max-len
           = 'Application: foam the shampoo in your hands and apply foam on the hair or draw a block over wet hair, foam, massage, rinse, apply balm or conditioner.';
         // eslint-disable-next-line max-len
-        card__image.src = 'https://lh3.googleusercontent.com/dTbZzq8VOKZWQGvw2foVoOJzMjDFgtBPYuQ1qUh099aZQpWFaxdKGJVPaYL7fdBivRWqILp9KNQ7SglsUxuO5qPUUcFUgQNVaF0fGI9u';
+        card__image.src = 'https://live.staticflickr.com/65535/52854265256_8808f391fa_m.jpg';
         break;
 
       case '2':
@@ -151,7 +152,7 @@ shop__image.forEach((element) => {
           // eslint-disable-next-line max-len
           = 'Application: Apply to face and neck skin. Use in the morning and evening.';
         // eslint-disable-next-line max-len
-        card__image.src = 'https://lh3.googleusercontent.com/46sUJ-zZ3nuPnNdF-u6BFJnpGkLjxlEdIUqB5A502pA4C9S74YFZzbRPBlzZDZmaAiea1pily6r44PLF7LmkPF4msNqBge8XiN-v_lTA';
+        card__image.src = 'https://live.staticflickr.com/65535/52853679392_344e871241_m.jpg';
 
         break;
       case '3':
@@ -166,7 +167,7 @@ shop__image.forEach((element) => {
           // eslint-disable-next-line max-len
           = 'Application: Apply the paste all over your body, gently massage with your fingertips in circular motion.Rinse well with plain water and pat dry. Use it 2-3 times a week for a brighter and even skin tone.  ';
         // eslint-disable-next-line max-len
-        card__image.src = 'https://lh3.googleusercontent.com/CCux00QqRizFWnHN8hZaMrXmQA3K-P92EhThy3P8c3n1F0CmHbWi5504J1_PkYx-2q71tQ-CUePcTZarwbUy5MXfKlTmiB4BbY6-DlIM';
+        card__image.src = 'https://live.staticflickr.com/65535/52854442704_67007124cb_m.jpg';
 
         break;
       case '4':
@@ -181,7 +182,7 @@ shop__image.forEach((element) => {
           // eslint-disable-next-line max-len
           = 'Application: Apply the scrub to clean, damp skin and rub in circular, massaging movements. Rinse off the remaining scrub with water and dry the skin with a towel.';
         // eslint-disable-next-line max-len
-        card__image.src = 'https://lh3.googleusercontent.com/dP073CJ6Pe7qDG6viNgDbDRidDr13suzqSnVLHZwQpVD3uWe9MZ-JEDva0I1PCba-BnMhiO-mF3qXIRF4LIEboBjC-GFu4POWKjBT7M';
+        card__image.src = 'https://live.staticflickr.com/65535/52853692347_a45d31b27d_m.jpg';
         break;
       case '5':
         cardName.textContent = 'Almond Shampoo with Lavender Oil';
@@ -195,7 +196,7 @@ shop__image.forEach((element) => {
           // eslint-disable-next-line max-len
           = 'Application:  foam the shampoo in your hands and apply foam on the hair or draw a block over wet hair, foam, massage,rinse, apply balm or conditioner.';
         // eslint-disable-next-line max-len
-        card__image.src = 'https://lh3.googleusercontent.com/Hv0o7ZfTrvLQLB8M6Q91o0eMWFG0XX08Xh7UHUUmxmI3onogULXiZS7Gx6tluqY3vP61Ob9GMCPj3Jc-oqIa-Z8K8IXyc4T-3exlix2G';
+        card__image.src = 'https://live.staticflickr.com/65535/52854269476_5b66cd2fb2_m.jpg';
         break;
       case '6':
         cardName.textContent = 'shampoo-conditioner HERBS';
@@ -209,7 +210,7 @@ shop__image.forEach((element) => {
           // eslint-disable-next-line max-len
           = 'Application: Apply conditioner generously to wet hair from root to tip and rinse.';
         // eslint-disable-next-line max-len
-        card__image.src = 'https://lh3.googleusercontent.com/gtILyBrmBBxvpn9yZHUD4EVEY8BeDB_JlDTpUrUDmaoqFtlyXAGuOSJUspCzUH9q81d0FpDsvnRpl2LfBR8ZP7NJ0QYXkAWLnwnw0xaeiQ';
+        card__image.src = 'https://live.staticflickr.com/65535/52853691692_6818ca9b1e_m.jpg';
         break;
       case '7':
         cardName.textContent = 'whiskey room candle';
@@ -223,7 +224,7 @@ shop__image.forEach((element) => {
           // eslint-disable-next-line max-len
           = 'Application: First time lighting, please ensure you burn for at least 4 hours, keep sheltered from drafts.';
         // eslint-disable-next-line max-len
-        card__image.src = 'https://lh3.googleusercontent.com/CvyCS0osEM-zTdqZC-xOK91Kk_sd_Bu-uO4wVCaBgFebsxZX5z1kx6pWXdTu23pZ56mEd0zHunMyF1gPG0BqmUiJGdUinSXMCMQyhVIrog';
+        card__image.src = 'https://live.staticflickr.com/65535/52854689720_fefece0be9_m.jpg';
         break;
       case '8':
         cardName.textContent = 'hand poured scented soy candle';
@@ -237,7 +238,7 @@ shop__image.forEach((element) => {
           // eslint-disable-next-line max-len
           = 'Application: Always burn within sight. Keep away from drafts and vibrations. Keep out of reach of children and pets.';
         // eslint-disable-next-line max-len
-        card__image.src = 'https://lh3.googleusercontent.com/8uFLAmlpjZOUd9mZJ3KzOW3L0D0CIMvx9ctplTGifPsMNH0jjK4U2vjpK1dPszmr1okwNTElLW0mX9m_r0MyhatNmJA8yp4AEFcMEQZ1';
+        card__image.src = 'https://live.staticflickr.com/65535/52853690717_8ee709518c_m.jpg';
         break;
       default:
         break;
